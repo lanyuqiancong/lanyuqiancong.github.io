@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>加速GitHubpage在国内访问</title>
+      <link href="/posts/21385.html"/>
+      <url>/posts/21385.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>算法</title>
+      <link href="/posts/54150.html"/>
+      <url>/posts/54150.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机网络</title>
+      <link href="/posts/40410.html"/>
+      <url>/posts/40410.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> 计网 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python爬虫</title>
+      <link href="/posts/41534.html"/>
+      <url>/posts/41534.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> 爬虫 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> 爬虫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于Github+hexo搭建的方法</title>
+      <link href="/posts/64532.html"/>
+      <url>/posts/64532.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于github博客备份问题</title>
+      <link href="/posts/20203.html"/>
+      <url>/posts/20203.html</url>
+      
+        <content type="html"><![CDATA[<div class="note warning">            <p>如果换新电脑了一定！一定！一定！要备份！！！这里我大致摸索了两种方法~</p>          </div><blockquote><p>首先要安装必要的软件</p></blockquote><ul><li>Git客户端<br><a href="https://git-scm.com/">https://git-scm.com/</a></li><li>Node JS<br><a href="https://nodejs.org/en/">https://nodejs.org/en/</a></li></ul><blockquote><p>在github官网添加新电脑产生的密钥，并测试是否能连接</p></blockquote><ul><li>配置git个人信息并生成ssh密钥</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;xxxxx&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;xxxxxx@xx.com&quot;</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;xxxxxx@xx.com&quot;</span></span><br></pre></td></tr></table></figure><blockquote><p>在Github设置ssh密钥</p></blockquote><p>密钥在.ssh文件夹下的id_rsa.pub里面<br>打开GitHub网页，在右上角Seetings - SSH and GPG keys - NEW SSH key，把复制的内容粘贴到key栏，然后保存即可</p><blockquote><p>将原来电脑上个人博客目录的以下内容拷到新电脑上，注意无需拷全部，只拷以下几个目录</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">_config.yml</span><br><span class="line">package.json</span><br><span class="line">scaffolds&#x2F;</span><br><span class="line">source&#x2F;</span><br><span class="line">themes&#x2F;</span><br><span class="line">.gitignore</span><br><span class="line">对于butterfly应该还可以拷贝一个_config.butterfly.yml</span><br></pre></td></tr></table></figure><blockquote><p>在Git Bash安装hexo</p></blockquote><ul><li>npm install hexo-cli -g</li></ul><blockquote><p>在新博客目录下安装相关模块</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>最后运行hexo clean &amp; hexo g &amp; hexo d 看看是否成功</p><blockquote><p>补充说明</p></blockquote><div class="note success">            <p>写个人博客一定要有常备份的习惯，说不定哪天你电脑突然就坏了呢（滑稽），这个时候你的这种习惯就会拯救你，下面介绍我自己摸索的方法，以butterfly主题为例~</p>          </div><ul><li><strong>hexo-git-backup</strong></li></ul><p><em>hexo有这样一个插件hexo-git-backup</em></p><blockquote><p><strong>安装指令</strong>（在你的博客目录下打开bash）</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm remove hexo-git-backup （--save指令需先移除此版本）</span><br><span class="line">npm install hexo-git-backup --save</span><br></pre></td></tr></table></figure><p> 在GitHub新建一个私人仓库，注意是私人的，这么做的目的不用多说了吧</p><ul><li>在GitHub获得你新建仓库的ssh连接或者http链接都可以</li><li>然后在bash中输入</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git init （这步做完文件夹后面会出现master，代表git初始化）</span><br><span class="line">git remote add backup 刚刚复制的ssh或者http链接（会出现警告，不管）</span><br></pre></td></tr></table></figure><ul><li>随后在网站的配置文件(blog下的<code>_config.yml</code>，不是themes下的)中加入下列配置：(怕敲错可直接复制)</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">backup:</span><br><span class="line">  type: git</span><br><span class="line">  repo:</span><br><span class="line">    backup: git@github.com:你的GitHub用户名&#x2F;你新建的备份仓库.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><ul><li>然后在博客目录下打开bash</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo b</span><br></pre></td></tr></table></figure><p>这样备份就完成了，因为是私人仓库期间可能会出现warning，可不管</p><ul><li>当在新电脑续写博客时，我目前是直接将我私人仓库的压缩文件下载，解压之后，在文件打开bash，下载相关依赖，hexo三连即可，每次写完记得备份！！</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于hexo主题的相关语法</title>
+      <link href="/posts/11030.html"/>
+      <url>/posts/11030.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><h3 id="关于提示标签语法"><a href="#关于提示标签语法" class="headerlink" title="关于提示标签语法"></a>关于提示标签语法</h3></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note [class] [no-icon] %&#125;</span><br><span class="line">Any content (support inline tags too.io).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">[class]   : default | primary | success | info | warning | danger.</span><br><span class="line">[no-icon] : Disable icon in note.</span><br><span class="line"></span><br><span class="line">All parameters are optional.</span><br></pre></td></tr></table></figure><ul><li>例如</li></ul><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note default %&#125;</span><br><span class="line">default 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary no-icon %&#125;</span><br><span class="line">primary 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success %&#125;</span><br><span class="line">success 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info %&#125;</span><br><span class="line">info 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning %&#125;</span><br><span class="line">warning 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger %&#125;</span><br><span class="line">danger 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><div class="note default">            <p>default 提示块标籤</p>          </div><div class="note primary no-icon">            <p>primary 提示块标籤</p>          </div><div class="note success">            <p>success 提示块标籤</p>          </div><div class="note info">            <p>info 提示块标籤</p>          </div><div class="note warning">            <p>warning 提示块标籤</p>          </div><div class="note danger">            <p>danger 提示块标籤</p>          </div><blockquote><h3 id="Button"><a href="#Button" class="headerlink" title="Button"></a>Button</h3></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br><span class="line"></span><br><span class="line">[url]         : 链接</span><br><span class="line">[text]        : 按钮文字</span><br><span class="line">[icon]        : [可选] 图标</span><br><span class="line">[color]       : [可选] 按钮背景顔色(默认style时）</span><br><span class="line"><span class="code">                      按钮字体和边框顔色(outline时)</span></span><br><span class="line"><span class="code">                      default/blue/pink/red/purple/orange/green</span></span><br><span class="line"><span class="code">[style]       : [可选] 按钮样式 默认实心</span></span><br><span class="line"><span class="code">                      outline/留空</span></span><br><span class="line"><span class="code">[layout]      : [可选] 按钮佈局 默认为line</span></span><br><span class="line"><span class="code">                      block/留空</span></span><br><span class="line"><span class="code">[position]    : [可选] 按钮位置 前提是设置了layout为block 默认为左边</span></span><br><span class="line"><span class="code">                      center/right/留空</span></span><br><span class="line"><span class="code">[size]        : [可选] 按钮大小</span></span><br><span class="line"><span class="code">                      larger/留空</span></span><br></pre></td></tr></table></figure><blockquote><h3 id="添加图片语法"><a href="#添加图片语法" class="headerlink" title="添加图片语法"></a>添加图片语法</h3></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% gallery %&#125;</span><br><span class="line">markdown 图片格式</span><br><span class="line">&#123;% endgallery %&#125;</span><br></pre></td></tr></table></figure><ul><li>例如</li></ul><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&#123;% gallery %&#125;</span><br><span class="line">![](https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg)</span><br><span class="line">![](https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg)</span><br><span class="line">![](https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg)</span><br><span class="line">![](https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg)</span><br><span class="line">![](https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg)</span><br><span class="line">![](https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg)</span><br><span class="line">![](https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg)</span><br><span class="line">![](https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg)</span><br><span class="line">&#123;% endgallery %&#125;</span><br></pre></td></tr></table></figure><blockquote><h3 id="相册图库语法"><a href="#相册图库语法" class="headerlink" title="相册图库语法"></a>相册图库语法</h3></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;gallery-group-main&quot;</span>&gt;</span></span></span><br><span class="line">&#123;% galleryGroup name description link img-url %&#125;</span><br><span class="line">&#123;% galleryGroup name description link img-url %&#125;</span><br><span class="line">&#123;% galleryGroup name description link img-url %&#125;</span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure><ul><li>name:图库名字</li><li>description:图库描述</li><li>link:连接对应相册地址</li><li>img-urk:图库封面地址</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>游戏剪辑一</title>
+      <link href="/posts/52053.html"/>
+      <url>/posts/52053.html</url>
+      
+        <content type="html"><![CDATA[<div class="note default">            <p>笠笠笠击杀剪辑</p>          </div><blockquote><p>简介：<br><strong>目前400胜首席三笠，老菜鸡了，不喜勿喷</strong></p></blockquote><a class="btn-beautify button--animated blue larger" href="https://space.bilibili.com/193279891"   title="传送门"><i class="far fa-hand-point-right fa-fw"></i><span>传送门</span></a><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=456473834&bvid=BV135411a7Hy&cid=213929848&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" ></iframe></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 剪辑 </category>
+          
+          <category> 笠笠笠 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剪辑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
