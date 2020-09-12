@@ -33,112 +33,52 @@
     
     
     <entry>
-      <title>算法</title>
+      <title>test4</title>
       <link href="/posts/54150.html"/>
       <url>/posts/54150.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
-      <categories>
-          
-          <category> 学习 </category>
-          
-          <category> 算法 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 算法 </tag>
-            
-        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>计算机网络</title>
+      <title>test3</title>
       <link href="/posts/40410.html"/>
       <url>/posts/40410.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
-      <categories>
-          
-          <category> 学习 </category>
-          
-          <category> 计网 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 网络 </tag>
-            
-        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>python爬虫</title>
+      <title>test2</title>
       <link href="/posts/41534.html"/>
       <url>/posts/41534.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
-      <categories>
-          
-          <category> 技术 </category>
-          
-          <category> 爬虫 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> python </tag>
-            
-            <tag> 爬虫 </tag>
-            
-        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>关于Github+hexo搭建的方法</title>
+      <title>test1</title>
       <link href="/posts/64532.html"/>
       <url>/posts/64532.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
-      <categories>
-          
-          <category> 教程 </category>
-          
-          <category> hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> 教程 </tag>
-            
-        </tags>
       
     </entry>
     
