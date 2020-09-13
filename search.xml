@@ -17,6 +17,8 @@
           
           <category> hexo </category>
           
+          <category> vercel </category>
+          
       </categories>
       
       
@@ -25,6 +27,8 @@
             <tag> hexo </tag>
             
             <tag> 教程 </tag>
+            
+            <tag> vercel </tag>
             
         </tags>
       
