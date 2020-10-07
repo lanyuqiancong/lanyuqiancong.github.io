@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://qiancong.me/posts/20203.html</loc>
+    
+    <lastmod>2020-10-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://qiancong.me/posts/11030.html</loc>
+    
+    <lastmod>2020-10-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://qiancong.me/anime/index.html</loc>
+    
+    <lastmod>2020-10-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://qiancong.me/posts/52053.html</loc>
+    
+    <lastmod>2020-10-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://qiancong.me/reward/index.html</loc>
     
     <lastmod>2020-09-29</lastmod>
@@ -12,13 +40,6 @@
     <loc>https://qiancong.me/posts/21385.html</loc>
     
     <lastmod>2020-09-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://qiancong.me/posts/11030.html</loc>
-    
-    <lastmod>2020-09-08</lastmod>
     
   </url>
   
@@ -58,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://qiancong.me/link/index.html</loc>
+    <loc>https://qiancong.me/messageboard/index.html</loc>
     
     <lastmod>2020-09-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://qiancong.me/messageboard/index.html</loc>
+    <loc>https://qiancong.me/link/index.html</loc>
     
     <lastmod>2020-09-07</lastmod>
     
@@ -87,27 +108,6 @@
   
   <url>
     <loc>https://qiancong.me/gallery/yukino.html</loc>
-    
-    <lastmod>2020-09-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://qiancong.me/anime/index.html</loc>
-    
-    <lastmod>2020-09-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://qiancong.me/posts/20203.html</loc>
-    
-    <lastmod>2020-09-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://qiancong.me/posts/52053.html</loc>
     
     <lastmod>2020-09-07</lastmod>
     
@@ -137,14 +137,14 @@
   </url>
   
   <url>
-    <loc>https://qiancong.me/tags/%E5%89%AA%E8%BE%91/</loc>
+    <loc>https://qiancong.me/tags/vercel/</loc>
     <lastmod>2020-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://qiancong.me/tags/vercel/</loc>
+    <loc>https://qiancong.me/tags/%E5%89%AA%E8%BE%91/</loc>
     <lastmod>2020-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
